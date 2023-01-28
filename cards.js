@@ -2,7 +2,7 @@ const cards = [
     {
         id: 1,
         image: 'images/recipe-app.png',
-        heading: 'Multi-Post Stories Gain+Glory',
+        heading: 'Recipe App Project',
         badge1: 'Ruby on Rails',
         badge2: 'css',
         badge3: 'Java Script',
@@ -10,8 +10,8 @@ const cards = [
     },
     {
       id: 2,
-      image: 'images/plan.png',
-        heading: 'Multi-Post Stories Gain+Glory',
+      image: 'images/MathMagician.jfif',
+        heading: 'Math Magician Project',
         badge1: 'Ruby on Rails',
         badge2: 'css',
         badge3: 'Java Script',
@@ -19,8 +19,8 @@ const cards = [
     },
     {
       id: 3,
-      image: 'images/recipe-app.png',
-        heading: 'Multi-Post Stories Gain+Glory',
+      image: 'images/BookStore.jfif',
+        heading: 'BookStore Project',
         badge1: 'Ruby on Rails',
         badge2: 'css',
         badge3: 'Java Script',

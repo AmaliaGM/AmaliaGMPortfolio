@@ -1,0 +1,13 @@
+{
+  "type": "module",
+  "name": "amaliagm-portfolio",
+  "version": "1.0.0",
+  "description": "If you are not familiar with linters, read [root level README](../README.md).",
+  "main": "cards.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -671,8 +671,8 @@ div .tabletimg {
 
 .popup1 {
   display: none;
-  width: auto;
-  height: 160%;
+  width: 100%;
+  height: auto;
   padding: 20%;
   background-color: #ffff;
   position: fixed;

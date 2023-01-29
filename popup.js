@@ -1,16 +1,57 @@
-const popup1 = document.createElement('section');
-popup1.classList = 'popup1';
+card = [
+    {
+        id: 1,
+        image: 'images/recipe-app.png',
+        heading: 'Recipe App Project',
+        description: 'add your recipes here',
+    },
+    {
+      id: 2,
+      image: 'images/MathMagician.jfif',
+        heading: 'Math Magician Project',
+        description: 'add your recipes here',
+    },
+    {
+      id: 3,
+      image: 'images/BookStore.jfif',
+        heading: 'BookStore Project',
+        description: 'add your recipes here',
+    },
+    {
+      id: 4,
+      image: 'images/recipe-app.png',
+        heading: 'Multi-Post Stories Gain+Glory',
+        description: 'add your recipes here',
+    },
+    {
+      id: 5,
+      image: 'images/recipe-app.png',
+        heading: 'Multi-Post Stories Gain+Glory',
+        description: 'add your recipes here',
+    },
+    {
+      id: 6,
+      image: 'images/recipe-app.png',
+        heading: 'Multi-Post Stories Gain+Glory',
+        description: 'add your recipes here',
+    },
+  ]
 
+const popup1 = document.getElementById('popup1');
+
+for (let i = 0; i < 6; i += 1) {
 const popUpDiv = document.createElement('div');
 popUpDiv.classList = 'images';
 popup1.appendChild(popUpDiv);
 
 const imgPopM = document.createElement('img');
 imgPopM.classList = 'mobile img';
+imgPopM.src = (card[i].image);
 popUpDiv.appendChild(imgPopM);
 
 const imgPopD = document.createElement('img');
 imgPopD.classList = 'desktop img';
+imgPopD.src = (card[i].image);
 popUpDiv.appendChild(imgPopD);
 
 const popDiv = document.createElement('div');
@@ -19,6 +60,7 @@ popup1.appendChild(popDiv);
 
 const popUpTitle = document.createElement('h2');
 popUpTitle.classList = 'popUp-title';
+popUpTitle.innerHTML = card[i].heading,
 popup1.appendChild(popUpTitle);
 
 const desktopSee = document.createElement('div');
@@ -121,5 +163,6 @@ amobSee1.appendChild(imgDeskLive);
 
 const imgDeskSource = document.createElement('img');
 amobSee2.appendChild(imgDeskSource);
+}
 
 document.body.appendChild(popup1);

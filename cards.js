@@ -28,8 +28,8 @@ const cards = [
     },
     {
       id: 4,
-      image: 'images/recipe-app.png',
-        heading: 'Multi-Post Stories Gain+Glory',
+      image: 'images/AwesomeBooks.png',
+        heading: 'Awesome Books',
         badge1: 'Ruby on Rails',
         badge2: 'css',
         badge3: 'Java Script',

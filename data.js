@@ -1,58 +1,40 @@
-const cards = [
-    {
-        id: 1,
-        image: 'images/recipe-app.png',
-        heading: 'Multi-Post Stories Gain+Glory',
-        badge1: 'Ruby on Rails',
-        badge2: 'css',
-        badge3: 'Java Script',
-        badge4: 'HTML',
-    },
-    {
-      id: 2,
+/* cards = [
+  {
+      id: 1,
       image: 'images/recipe-app.png',
-        heading: 'Multi-Post Stories Gain+Glory',
-        badge1: 'Ruby on Rails',
-        badge2: 'css',
-        badge3: 'Java Script',
-        badge4: 'HTML',
-    },
-    {
-      id: 3,
-      image: 'images/recipe-app.png',
-        heading: 'Multi-Post Stories Gain+Glory',
-        badge1: 'Ruby on Rails',
-        badge2: 'css',
-        badge3: 'Java Script',
-        badge4: 'HTML',
-    },
-    {
-      id: 4,
-      image: 'images/recipe-app.png',
-        heading: 'Multi-Post Stories Gain+Glory',
-        badge1: 'Ruby on Rails',
-        badge2: 'css',
-        badge3: 'Java Script',
-        badge4: 'HTML',
-    },
-    {
-      id: 5,
-      image: 'images/recipe-app.png',
-        heading: 'Multi-Post Stories Gain+Glory',
-        badge1: 'Ruby on Rails',
-        badge2: 'css',
-        badge3: 'Java Script',
-        badge4: 'HTML',
-    },
-    {
-      id: 6,
-      image: 'images/recipe-app.png',
-        heading: 'Multi-Post Stories Gain+Glory',
-        badge1: 'Ruby on Rails',
-        badge2: 'css',
-        badge3: 'Java Script',
-        badge4: 'HTML',
-    }
+      heading: 'Recipe App Project',
+      description: 'add your recipes here',
+  },
+  {
+    id: 2,
+    image: 'images/MathMagician.jfif',
+      heading: 'Math Magician Project',
+      description: 'add your recipes here',
+  },
+  {
+    id: 3,
+    image: 'images/BookStore.jfif',
+      heading: 'BookStore Project',
+      description: 'add your recipes here',
+  },
+  {
+    id: 4,
+    image: 'images/recipe-app.png',
+      heading: 'Multi-Post Stories Gain+Glory',
+      description: 'add your recipes here',
+  },
+  {
+    id: 5,
+    image: 'images/recipe-app.png',
+      heading: 'Multi-Post Stories Gain+Glory',
+      description: 'add your recipes here',
+  },
+  {
+    id: 6,
+    image: 'images/recipe-app.png',
+      heading: 'Multi-Post Stories Gain+Glory',
+      description: 'add your recipes here',
+  },
 ]
 
-module.exports = { cards };
+ */

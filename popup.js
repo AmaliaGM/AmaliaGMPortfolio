@@ -19,8 +19,8 @@ card = [
     },
     {
       id: 4,
-      image: 'images/recipe-app.png',
-        heading: 'Multi-Post Stories Gain+Glory',
+      image: 'images/ExpensesCheck!.png',
+        heading: 'Expenses Check',
         description: 'add your recipes here',
     },
     {
@@ -37,52 +37,47 @@ card = [
     },
   ]
 
-const popup1 = document.getElementById('popup1');
+  console.log(card);
+  const popup1 = document.getElementById('popup1');
 
-for (let i = 0; i < 6; i += 1) {
-const popUpDiv = document.createElement('div');
-popUpDiv.classList = 'images';
-popup1.appendChild(popUpDiv);
+  card.forEach((data) => {
+    addEventListener('click', (e) => {
+      console.log(e)
+    })
+    if (data.id) {
+      console.log(data.id)
+    const popUpDiv = document.createElement('img');
+    popUpDiv.classList = 'images';
+    popUpDiv.src = data.image;
+    popup1.appendChild(popUpDiv);
+    
+    const popDiv = document.createElement('div');
+    popDiv.classList = 'pop';
+    popup1.appendChild(popDiv);
+    
+    const popUpTitle = document.createElement('h2');
+    popUpTitle.classList = 'popUp-title';
+    popUpTitle.innerHTML = data.heading,
+    popup1.appendChild(popUpTitle);
 
-const imgPopM = document.createElement('img');
-imgPopM.classList = 'mobile img';
-imgPopM.src = (card[i].image);
-popUpDiv.appendChild(imgPopM);
+    const desktopSee = document.createElement('div');
+    desktopSee.classList = 'desktop see';
+    popup1.appendChild(desktopSee);
 
-const imgPopD = document.createElement('img');
-imgPopD.classList = 'desktop img';
-imgPopD.src = (card[i].image);
-popUpDiv.appendChild(imgPopD);
+    const aDesk = document.createElement('a');
+    aDesk.classList = 'dSeeLive';
+    desktopSee.appendChild(aDesk);
 
-const popDiv = document.createElement('div');
-popDiv.classList = 'pop';
-popup1.appendChild(popDiv);
+    const imgDL = document.createElement('img');
+    imgDL.src = 'images/Live.png';
+    aDesk.appendChild(imgDL);
 
-const popUpTitle = document.createElement('h2');
-popUpTitle.classList = 'popUp-title';
-popUpTitle.innerHTML = card[i].heading,
-popup1.appendChild(popUpTitle);
-
-const desktopSee = document.createElement('div');
-desktopSee.classList = 'desktop see';
-popup1.appendChild(desktopSee);
-
-const aDesk = document.createElement('a');
-aDesk.classList = 'dSeeLive';
-desktopSee.appendChild(aDesk);
-
-const imgDL = document.createElement('img');
-imgDL.src = 'images/Live.png';
-aDesk.appendChild(imgDL);
-const mobile = document.createElement('div');
-mobile.classList = 'mobile';
-popup1.appendChild(mobile);
-
-const ulLang = document.createElement('ul');
-ulLang.classList = 'languages';
-popup1.appendChild(ulLang);
-
-const liLang1 = document.createElement('li');
+    const ulLang = document.createElement('ul');
+    ulLang.classList = 'description';
+    ulLang.innerHTML = data.description;
+    popup1.appendChild(ulLang);
+}})
+/* const liLang1 = document.createElement('li');
 ulLang.appendChild(liLang1);
 
 const liLang2 = document.createElement('li');
@@ -162,7 +157,6 @@ const imgDeskLive = document.createElement('img');
 amobSee1.appendChild(imgDeskLive);
 
 const imgDeskSource = document.createElement('img');
-amobSee2.appendChild(imgDeskSource);
-}
+amobSee2.appendChild(imgDeskSource); */
 
 document.body.appendChild(popup1);

@@ -7,6 +7,7 @@ const cards = [
         badge2: 'css',
         badge3: 'Java Script',
         badge4: 'HTML',
+        description: 'insert your recipe here'
     },
     {
       id: 2,
@@ -16,6 +17,8 @@ const cards = [
         badge2: 'css',
         badge3: 'Java Script',
         badge4: 'HTML',
+        description: 'insert your recipe here'
+
     },
     {
       id: 3,
@@ -25,6 +28,8 @@ const cards = [
         badge2: 'css',
         badge3: 'Java Script',
         badge4: 'HTML',
+        description: 'insert your recipe here'
+        
     },
     {
       id: 4,
@@ -34,15 +39,19 @@ const cards = [
         badge2: 'css',
         badge3: 'Java Script',
         badge4: 'HTML',
+        description: 'insert your recipe here'
+
     },
     {
       id: 5,
-      image: 'images/recipe-app.png',
-        heading: 'Multi-Post Stories Gain+Glory',
+      image: 'images/ExpensesCheck!.png',
+        heading: 'Expenses Check!',
         badge1: 'Ruby on Rails',
         badge2: 'css',
         badge3: 'Java Script',
         badge4: 'HTML',
+        description: 'insert your recipe here'
+
     },
     {
       id: 6,
@@ -52,8 +61,18 @@ const cards = [
         badge2: 'css',
         badge3: 'Java Script',
         badge4: 'HTML',
+        description: 'insert your recipe here'
+
     },
 ]
+
+const testFunction = (id) => {
+  const popup1 = document.getElementById('popup1');
+  popup1.innerHTML = `<h1>${cards[id].heading}</h1>
+  <img src="${cards[id].image}" alt="image">
+  <p>${cards[id].description}</p>
+  `
+}
 
 const append = document.getElementById('append');
 const sectionD = document.createElement('div');
@@ -112,6 +131,8 @@ for (let i = 0; i < 6; i += 1) {
   const projects = document.createElement('button');
   projects.classList = 'projects';
   projects.innerText = 'See Project';
+  projects.setAttribute('id', i);
+  projects.setAttribute('onclick', `testFunction(${i})`)
   div.appendChild(projects);
   projects.addEventListener('click', () => {
     popUp.classList.add('active');

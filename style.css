@@ -688,32 +688,11 @@ div .tabletimg {
   backdrop-filter: blur(3px);
 }
 
-.popup1-title {
-  font-family: 'Inter', Arial, Helvetica, sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 32px;
-  line-height: 44px;
-  color: #172b4d;
-  margin-top: 0%;
-}
-
 @media screen and (min-width: 769px) {
   .pop {
     display: flex;
     justify-content: space-between;
     margin-top: 27px;
-  }
-
-  .popup1-title {
-    display: flex;
-    width: 60%;
-  }
-
-  .desktop.see {
-    display: flex;
-    flex-direction: row-reverse;
-    margin-top: 0;
   }
 }
 

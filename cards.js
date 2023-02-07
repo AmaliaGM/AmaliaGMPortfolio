@@ -7,7 +7,7 @@ const cards = [
         badge2: 'css',
         badge3: 'Java Script',
         badge4: 'HTML',
-        description: 'insert your recipe here'
+        description: 'Recipe App will allow you to save ingredients, keep track of what you have, create recipes, and generate a shopping list based on what you have and what you are missing from a recipe. Also, since sharing recipes is an important part of cooking the app should allow you to make them public so anyone can access them.'
     },
     {
       id: 2,
@@ -17,7 +17,7 @@ const cards = [
         badge2: 'css',
         badge3: 'Java Script',
         badge4: 'HTML',
-        description: 'insert your recipe here'
+        description: '"Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to: Make simple calculations. Read a random math-related quote.'
 
     },
     {
@@ -28,7 +28,7 @@ const cards = [
         badge2: 'css',
         badge3: 'Java Script',
         badge4: 'HTML',
-        description: 'insert your recipe here'
+        description: 'The Bookstore is a website allows you to Display a list of books, Add a book and Remove a selected book.'
         
     },
     {
@@ -39,8 +39,7 @@ const cards = [
         badge2: 'css',
         badge3: 'Java Script',
         badge4: 'HTML',
-        description: 'insert your recipe here'
-
+        description: 'This is an app where you can add your selection of books while keeping them in order and delete them whenever you want. Does not occupy space since its storaged in browser.'
     },
     {
       id: 5,
@@ -50,7 +49,7 @@ const cards = [
         badge2: 'css',
         badge3: 'Java Script',
         badge4: 'HTML',
-        description: 'insert your recipe here'
+        description: 'ExpensesCheck is a mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.'
 
     },
     {
@@ -68,6 +67,7 @@ const cards = [
 
 const testFunction = (id) => {
   const popup1 = document.getElementById('popup1');
+  popup1.classList = 'popup1'
   popup1.innerHTML = `<h1>${cards[id].heading}</h1>
   <img src="${cards[id].image}" alt="image">
   <p>${cards[id].description}</p>

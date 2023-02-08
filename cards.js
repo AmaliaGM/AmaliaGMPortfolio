@@ -45,22 +45,21 @@ const cards = [
       id: 5,
       image: 'images/ExpensesCheck!.png',
         heading: 'Expenses Check!',
+        description: 'ExpensesCheck is a mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.',
         badge1: 'Ruby on Rails',
         badge2: 'css',
         badge3: 'Java Script',
         badge4: 'HTML',
-        description: 'ExpensesCheck is a mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.'
-
     },
     {
       id: 6,
       image: 'images/Monet React.png',
         heading: 'Monet - React',
+        description: 'This React capstone project is about building a mobile web application to check a list that was created making use of React and Redux.',
         badge1: 'Ruby on Rails',
         badge2: 'css',
         badge3: 'Java Script',
         badge4: 'HTML',
-        description: 'This React capstone project is about building a mobile web application to check a list that was created making use of React and Redux.'
 
     },
 ]
@@ -69,8 +68,8 @@ const testFunction = (id) => {
   const popup1 = document.getElementById('popup1');
   popup1.classList = 'popup1'
   popup1.innerHTML = `<h1>${cards[id].heading}</h1>
-  <img src="${cards[id].image}" alt="image">
   <p>${cards[id].description}</p>
+  <img src="${cards[id].image}" alt="image">
   `
 }
 

@@ -208,7 +208,6 @@ body {
 .icons li {
   list-style: none;
   margin: 0;
-  padding: 30%;
   margin-bottom: 10%;
 }
 
@@ -671,21 +670,21 @@ div .tabletimg {
 .popup1 {
   display: none;
   max-width: 95%;
-  height: auto;
+  max-height: 100%;
   background-color: #ffff;
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  justify-content: stretch;
   margin: auto;
 }
 
 .popup1.active {
   display: block;
-  justify-content: center;
+  justify-content: stretch;
   backdrop-filter: blur(3px);
+  padding-bottom: 20%;
 }
 
 @media screen and (min-width: 769px) {

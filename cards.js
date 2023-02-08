@@ -54,13 +54,13 @@ const cards = [
     },
     {
       id: 6,
-      image: 'images/recipe-app.png',
-        heading: 'Multi-Post Stories Gain+Glory',
+      image: 'images/Monet React.png',
+        heading: 'Monet - React',
         badge1: 'Ruby on Rails',
         badge2: 'css',
         badge3: 'Java Script',
         badge4: 'HTML',
-        description: 'insert your recipe here'
+        description: 'This React capstone project is about building a mobile web application to check a list that was created making use of React and Redux.'
 
     },
 ]

@@ -2,7 +2,7 @@
   overflow: hidden;
 }
 
-header {
+header.navbar1 {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -11,6 +11,7 @@ header {
   overflow: hidden;
   background-color: #ffff;
   padding: 1%;
+  border: #172b4d solid 1px;
 }
 
 .sticky {
@@ -156,6 +157,7 @@ body {
 
 .main {
   display: flex;
+  margin-top: 5%;
   flex-direction: column;
   max-width: 100%;
   height: auto;

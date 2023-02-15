@@ -161,3 +161,14 @@ popUp.addEventListener('click', () => {
   popUp.classList.remove('active');
   append.classList.remove('inactive');
 });
+
+window.onscroll = function() {myFunction()};
+var header = document.getElementById('navbar1');
+var sticky = header.offsetTop;
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    header.classList.add("sticky")
+  } else {
+    header.classList.remove("sticky");
+  }
+}

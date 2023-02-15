@@ -4,10 +4,25 @@
 
 header {
   display: flex;
-  padding: 5% 5% 2% 5%;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   color: #262626;
+  margin-bottom: 1%;
+  overflow: hidden;
+  background-color: #ffff;
+  padding: 1%;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+header a {
+  text-decoration: none;
+  margin: auto;
+  color: #36b37f;
 }
 
 li.nav-item {
@@ -38,6 +53,7 @@ a.nav-link {
   align-items: center;
   width: 90%;
   margin: auto;
+  text-decoration: none;
 }
 
 #nav-menu {

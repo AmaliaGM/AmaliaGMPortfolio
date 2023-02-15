@@ -7,60 +7,69 @@ const cards = [
         badge2: 'css',
         badge3: 'Java Script',
         badge4: 'HTML',
-        description: 'Recipe App will allow you to save ingredients, keep track of what you have, create recipes, and generate a shopping list based on what you have and what you are missing from a recipe. Also, since sharing recipes is an important part of cooking the app should allow you to make them public so anyone can access them.'
+        description: 'Recipe App will allow you to save ingredients, keep track of what you have, create recipes, and generate a shopping list based on what you have and what you are missing from a recipe. Also, since sharing recipes is an important part of cooking the app should allow you to make them public so anyone can access them.',
+        liveLink: '',
+        projectLink: ''
     },
     {
       id: 2,
       image: 'images/MathMagician.jfif',
-        heading: 'Math Magician Project',
-        badge1: 'Ruby on Rails',
-        badge2: 'css',
-        badge3: 'Java Script',
-        badge4: 'HTML',
-        description: '"Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to: Make simple calculations. Read a random math-related quote.'
-
+      heading: 'Math Magician Project',
+      badge1: 'Ruby on Rails',
+      badge2: 'css',
+      badge3: 'Java Script',
+      badge4: 'HTML',
+      description: '"Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to: Make simple calculations. Read a random math-related quote.',
+      liveLink: 'https://6311b740bac0255f5dde5d58--tiny-blini-c2f1f7.netlify.app/calc',
+      projectLink: 'https://github.com/AmaliaGM/MathMagician'
     },
     {
       id: 3,
       image: 'images/BookStore.jfif',
-        heading: 'BookStore Project',
-        badge1: 'Ruby on Rails',
-        badge2: 'css',
-        badge3: 'Java Script',
-        badge4: 'HTML',
-        description: 'The Bookstore is a website allows you to Display a list of books, Add a book and Remove a selected book.'
-        
+      heading: 'BookStore Project',
+      badge1: 'Ruby on Rails',
+      badge2: 'css',
+      badge3: 'Java Script',
+      badge4: 'HTML',
+      description: 'The Bookstore is a website allows you to Display a list of books, Add a book and Remove a selected book.',
+      liveLink: 'https://amaliagm.github.io/CapstoneProject/',
+      projectLink: 'https://github.com/AmaliaGM/CapstoneProject/settings/pages'
     },
     {
       id: 4,
       image: 'images/AwesomeBooks.png',
-        heading: 'Awesome Books',
-        badge1: 'Ruby on Rails',
-        badge2: 'css',
-        badge3: 'Java Script',
-        badge4: 'HTML',
-        description: 'This is an app where you can add your selection of books while keeping them in order and delete them whenever you want. Does not occupy space since its storaged in browser.'
+      heading: 'Awesome Books',
+      badge1: 'Ruby on Rails',
+      badge2: 'css',
+      badge3: 'Java Script',
+      badge4: 'HTML',
+      description: 'This is an app where you can add your selection of books while keeping them in order and delete them whenever you want. Does not occupy space since its storaged in browser.',
+      liveLink: 'https://amaliagm.github.io/AwesomeBooks/',
+      projectLink: 'https://github.com/AmaliaGM/AwesomeBooks/settings/pages'    
     },
     {
       id: 5,
-      image: 'images/ExpensesCheck!.png',
-        heading: 'Expenses Check!',
-        description: 'ExpensesCheck is a mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.',
-        badge1: 'Ruby on Rails',
-        badge2: 'css',
-        badge3: 'Java Script',
-        badge4: 'HTML',
+      image: 'images/SurgeryMeet.png',
+      heading: 'SurgeryMeet',
+      description: 'ExpensesCheck is a mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.',
+      badge1: 'Ruby on Rails',
+      badge2: 'css',
+      badge3: 'Java Script',
+      badge4: 'HTML',
+      liveLink: 'https://amaliagm.github.io/CapstoneProject/',
+      projectLink: 'https://github.com/AmaliaGM/CapstoneProject/settings/pages'
     },
     {
       id: 6,
       image: 'images/Monet React.png',
-        heading: 'Monet - React',
-        description: 'This React capstone project is about building a mobile web application to check a list that was created making use of React and Redux.',
-        badge1: 'Ruby on Rails',
-        badge2: 'css',
-        badge3: 'Java Script',
-        badge4: 'HTML',
-
+      heading: 'Monet - React',
+      description: 'This React capstone project is about building a mobile web application to check a list that was created making use of React and Redux.',
+      badge1: 'Ruby on Rails',
+      badge2: 'css',
+      badge3: 'Java Script',
+      badge4: 'HTML',
+      liveLink: 'https://amaliagm.github.io/react-capstone-project/',
+      projectLink: 'https://github.com/AmaliaGM/react-capstone-project/settings/pages'
     },
 ]
 
@@ -69,8 +78,14 @@ const testFunction = (id) => {
   popup1.classList = 'popup1'
   popup1.innerHTML = `<h1>${cards[id].heading}</h1>
   <p>${cards[id].description}</p>
+  <a href="${cards[id].liveLink}">
+  <img src="./images/Live.png" alt="see live">
+  </a>
+  <a href="${cards[id].projectLink}">
+  <img src="./images/Source.png" alt="see live">
+  </a>
   <img src="${cards[id].image}" alt="image">
-  `
+ `
 }
 
 const append = document.getElementById('append');

@@ -1,15 +1,15 @@
 const cards = [
     {
         id: 1,
-        image: 'images/recipe-app.png',
-        heading: 'Recipe App Project',
+        image: 'images/AwesomeBooks.png',
+        heading: 'Awesome Books',
         badge1: 'Ruby on Rails',
         badge2: 'css',
         badge3: 'Java Script',
         badge4: 'HTML',
-        description: 'Recipe App will allow you to save ingredients, keep track of what you have, create recipes, and generate a shopping list based on what you have and what you are missing from a recipe. Also, since sharing recipes is an important part of cooking the app should allow you to make them public so anyone can access them.',
-        liveLink: '',
-        projectLink: ''
+        description: 'This is an app where you can add your selection of books while keeping them in order and delete them whenever you want. Does not occupy space since its storaged in browser.',
+        liveLink: 'https://amaliagm.github.io/AwesomeBooks/',
+        projectLink: 'https://github.com/AmaliaGM/AwesomeBooks/settings/pages'
     },
     {
       id: 2,
@@ -32,20 +32,20 @@ const cards = [
       badge3: 'Java Script',
       badge4: 'HTML',
       description: 'The Bookstore is a website allows you to Display a list of books, Add a book and Remove a selected book.',
-      liveLink: 'https://amaliagm.github.io/CapstoneProject/',
-      projectLink: 'https://github.com/AmaliaGM/CapstoneProject/settings/pages'
+      liveLink: ' https://amaliagm.github.io/BookStore/',
+      projectLink: 'https://github.com/AmaliaGM/BookStore'
     },
     {
       id: 4,
-      image: 'images/AwesomeBooks.png',
-      heading: 'Awesome Books',
+      image: 'images/recipe-app.png',
+      heading: 'Recipe App Project',
       badge1: 'Ruby on Rails',
       badge2: 'css',
       badge3: 'Java Script',
       badge4: 'HTML',
-      description: 'This is an app where you can add your selection of books while keeping them in order and delete them whenever you want. Does not occupy space since its storaged in browser.',
-      liveLink: 'https://amaliagm.github.io/AwesomeBooks/',
-      projectLink: 'https://github.com/AmaliaGM/AwesomeBooks/settings/pages'    
+      description: 'Recipe App will allow you to save ingredients, keep track of what you have, create recipes, and generate a shopping list based on what you have and what you are missing from a recipe. Also, since sharing recipes is an important part of cooking the app should allow you to make them public so anyone can access them.',
+      liveLink: 'https://recipeapp-ajuo.onrender.com',
+      projectLink: 'https://github.com/AmaliaGM/Recipe-app'
     },
     {
       id: 5,
@@ -56,8 +56,8 @@ const cards = [
       badge2: 'css',
       badge3: 'Java Script',
       badge4: 'HTML',
-      liveLink: 'https://amaliagm.github.io/CapstoneProject/',
-      projectLink: 'https://github.com/AmaliaGM/CapstoneProject/settings/pages'
+      liveLink: 'https://amaliagm.github.io/CapstoneProject',
+      projectLink: 'https://github.com/AmaliaGM/CapstoneProject'
     },
     {
       id: 6,
@@ -69,7 +69,7 @@ const cards = [
       badge3: 'Java Script',
       badge4: 'HTML',
       liveLink: 'https://amaliagm.github.io/react-capstone-project/',
-      projectLink: 'https://github.com/AmaliaGM/react-capstone-project/settings/pages'
+      projectLink: 'https://github.com/AmaliaGM/react-capstone-project'
     },
 ]
 

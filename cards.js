@@ -68,7 +68,7 @@ const cards = [
       badge2: 'css',
       badge3: 'Java Script',
       badge4: 'HTML',
-      liveLink: 'https://amaliagm.github.io/react-capstone-project/',
+      liveLink: 'https://workspace--jazzy-faloodeh-b9e7d8.netlify.app/',
       projectLink: 'https://github.com/AmaliaGM/react-capstone-project'
     },
 ]

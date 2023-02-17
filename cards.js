@@ -25,27 +25,27 @@ const cards = [
     },
     {
       id: 3,
-      image: 'images/BookStore.jfif',
-      heading: 'BookStore Project',
+      image: 'images/ExpensesCheck!.png',
+      heading: 'Expenses Check!',
+      description: 'ExpensesCheck is a mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.',
       badge1: 'Ruby on Rails',
       badge2: 'css',
       badge3: 'Java Script',
       badge4: 'HTML',
-      description: 'The Bookstore is a website allows you to Display a list of books, Add a book and Remove a selected book.',
-      liveLink: ' https://amaliagm.github.io/BookStore/',
-      projectLink: 'https://github.com/AmaliaGM/BookStore'
+      liveLink: 'https://expensescheck.onrender.com/',
+      projectLink: 'https://github.com/AmaliaGM/ExpensesCheck'
     },
     {
       id: 4,
-      image: 'images/recipe-app.png',
-      heading: 'Recipe App Project',
+      image: 'images/Oceans&Trails.png',
+      heading: 'Oceans&Trails Project',
       badge1: 'Ruby on Rails',
       badge2: 'css',
       badge3: 'Java Script',
       badge4: 'HTML',
-      description: 'Recipe App will allow you to save ingredients, keep track of what you have, create recipes, and generate a shopping list based on what you have and what you are missing from a recipe. Also, since sharing recipes is an important part of cooking the app should allow you to make them public so anyone can access them.',
-      liveLink: 'https://recipeapp-ajuo.onrender.com',
-      projectLink: 'https://github.com/AmaliaGM/Recipe-app'
+      description: 'Oceans and Trails its an app which helps you reserve and create travel packages, this app consist of a front end developed in react/redux and a back end developed with Ruby on Rails to create an API.',
+      liveLink: 'https://development--zesty-semolina-00f39e.netlify.app/home',
+      projectLink: 'https://github.com/AmaliaGM/oceans_and_trails_frontend'
     },
     {
       id: 5,
